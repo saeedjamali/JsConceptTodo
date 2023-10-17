@@ -1,0 +1,49 @@
+.parent {
+  height: 100vh;
+  background: #ccc;
+  display: flex;
+  flex-direction: row;
+  /* x = cross */
+  justify-content: space-between;
+  align-items: center;
+  /* بر روي آيتم ها عمل ميكند */
+
+  align-content: space-between;
+  /* بر روي لاين ها عمل ميكند */
+  /* جايي كه رپ هست اثرداره و ويژگي هاي جاستيفاي رو ميگيره */
+  flex-wrap: wrap;
+
+  /* When minimal viewport items breaks  */
+  /* flex 1D   Grid 2D  */
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.item1 {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
+
+.item2 {
+  width: 200px;
+  height: 200px;
+  background-color: greenyellow;
+}
+
+.item3 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.item4 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(24, 150, 208);
+}
